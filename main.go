@@ -20,7 +20,7 @@ func main() {
 }
 
 func handlerindex(w http.ResponseWriter, r *http.Request) {
-	path := "project-reports.html"
+	path := "final-project-report.html"
 	t, err := template.ParseFiles(path)
 	if err != nil {
 		log.Fatalln(err)
